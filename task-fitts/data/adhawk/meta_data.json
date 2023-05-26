@@ -1,0 +1,72 @@
+{
+	"user_profile": {
+		"name": "None",
+		"age": null,
+		"gender": "None",
+		"ipd_mm": null,
+		"ethnicity": "None",
+		"corrective": null,
+		"right_eye": null,
+		"left_eye": null,
+		"nosepiece": "1",
+		"cal_blob_id": null
+	},
+	"camera_config": {
+		"deg_to_px": [
+			0.007840926662582268,
+			-0.05488329268769622,
+			15.310319262380693
+		],
+		"config_file": "assets/worldcamera/camera_configs/Sincere-1280x720.yaml",
+		"product_id": 31,
+		"camera_type": 7
+	},
+	"recording_config": {
+		"version": 2,
+		"session_id": "63d2d314f55c00007a001aa3"
+	},
+	"custom_tags": [],
+	"meta_version": "1.2.0",
+	"manifest": {
+		"manifest_version": "1.0.0",
+		"recording_length_ms": 352417,
+		"entries": [
+			{
+				"type": "GAZE",
+				"file_name": "gaze_data.csv",
+				"attribute": {
+					"start_time_ms": 37,
+					"end_time_ms": 352474,
+					"index": 0
+				}
+			},
+			{
+				"type": "PUPIL_DIAMETER",
+				"file_name": "pupil_diameter_data.csv",
+				"attribute": {
+					"start_time_ms": 56,
+					"end_time_ms": 352468,
+					"index": 0
+				}
+			},
+			{
+				"type": "BLINK",
+				"file_name": "blink_data.csv",
+				"attribute": {
+					"start_time_ms": 1293,
+					"end_time_ms": 349831,
+					"index": 0
+				}
+			},
+			{
+				"type": "VIDEO",
+				"file_name": "session.mp4",
+				"attribute": {
+					"start_time_ms": 36,
+					"end_time_ms": 352453,
+					"index": 0
+				}
+			}
+		]
+	}
+}
